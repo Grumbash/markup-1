@@ -1,0 +1,27 @@
+.blockquote{
+	width: 622px;
+	height: 267px;
+	font-family: GentiumBookBasic;
+	font-size: 25px;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.8;
+	letter-spacing: normal;
+	text-align: center;
+	color: #dde0df;
+	position: relative;
+	&__quote-left{
+		position: absolute;
+		left: -30px;
+		width: 32px;
+		height: 25px;
+		color: #f2f4f4;
+	}
+	&__footer{
+		font-family: Lato;
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 2.5;
+		color: #ffffff;
+	}
+}

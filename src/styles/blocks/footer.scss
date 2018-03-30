@@ -1,0 +1,56 @@
+.footer {
+	flex: 0 0 auto;
+	background-color: #191919;
+	font-family: OpenSans;
+	&__wrapper{
+		display: flex;
+		justify-content: center;
+	}
+	&__section{
+		display: flex;
+		flex-direction: column;
+		margin-top: 61px;
+		margin-bottom: 72px;
+		&:first-child{
+			margin-right: 132px;
+		}
+		&:nth-child(2){
+			margin-right: 202px;
+		}
+		&__paragraph{
+			text-align: center;
+			display: inline-flex;
+			flex-direction: column;
+			width: 350px;
+			color: #fff;
+		}
+		&__image{
+			margin: 22px auto;
+			width: 199px;
+			height: 19px;
+		}
+		&__title{
+			font-family: YesevaOne;
+			font-size: 21px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.14;
+			letter-spacing: normal;
+			color: #fefefe;
+			display: inline-block;
+			text-align: center;
+		}
+		&__icon{
+			margin-top: auto;
+			display: flex;
+			justify-content: center;
+			color:#fff;
+			.fa{
+				padding: 5px;
+				font-size: 16px;
+				line-height: 1.5;
+			}
+		}
+	}
+}

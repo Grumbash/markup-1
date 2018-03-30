@@ -1,0 +1,35 @@
+.section-reviews{
+	background-image: url(../img/Reviews.png);
+	background-size: cover;
+	background-position: right;
+	height: 758px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__article{
+		width: 770px;
+		height: 557px;
+		background-color: rgba(0,0,0, 0.67);
+		color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	&__title{
+		font-family: YesevaOne;
+		font-size: 36px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+		margin-bottom: 23px;
+	}
+	&__divider{
+		width: 247px;
+		height: 24px;
+		margin-bottom: 30px;
+	}
+}

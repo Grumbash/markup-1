@@ -1,0 +1,73 @@
+.form{
+	width: 440px;
+	&__fields{
+		margin-bottom: 44px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__label{
+		display: flex;
+		flex-direction: column;
+		font-family: OpenSans;
+		font-size: 14px;
+		font-weight: bold;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #c9a131;
+		&:nth-child(2n+1){
+			margin-right: 30px;
+		}
+		&:nth-child(3){
+			margin-top: 47px;
+		}
+		&:last-child{
+			margin-top: 47px;
+		}
+	}
+	&__input{
+		width: 200px;
+		height: 36px;
+		background-color: #ffffff;
+		border: solid 1px trarsparent;
+		margin-top: 10px;
+		font-size: 16px;
+		padding-left: 14px;
+		&:focus{
+			outline: solid 2px #c89f2d;
+		}
+		@include placeholder{
+			height: 17px;
+			font-family: OpenSans;
+			font-size: 16px;
+			font-weight: normal;
+			font-style: italic;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			text-align: left;
+			color: #7c7c7c;
+			padding: 11px 0 8px;
+		}
+		&_submit{
+			display: block;
+			margin: 0 auto;
+			background-color: #c89f2d;
+			font-family: OpenSans;
+			font-size: 16px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			text-align: center;
+			color: #ffffff;
+			cursor: pointer;
+		}
+		&_party-number{
+			
+		}
+	}
+}

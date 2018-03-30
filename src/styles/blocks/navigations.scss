@@ -1,0 +1,29 @@
+.navigation{
+	font-family: GenBas;
+	height: 100%;
+	&__list{
+		height: 100%;
+		font-size: 21px;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: justify;
+		width: 791px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item{
+		display: inline-flex;
+		height: 100%;
+	}
+	&__link{
+		padding-top: 55px;
+		color: #ffffff;
+		border-top: solid 3px trarsparent;
+		transition: .3s ease;
+		&:hover{
+			border-top: solid 3px #ffffff;
+		}
+	}
+}

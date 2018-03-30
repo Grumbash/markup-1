@@ -1,0 +1,25 @@
+.header{
+	z-index: 1;
+	position: fixed;
+	display: flex;
+	padding:0 234px 0 179px;
+	height: 159px;
+	box-shadow: inset 0px 10px 20px 10px rgba(0,0,0,0.5);
+	&__social{
+		margin-top: 55px;
+		&__list{
+			height: 100%;
+			width: 81px;
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+		}
+		&__item{
+			display: inline-flex;
+			height: 100%;
+		}
+		&__link{
+			color: #dab33e;
+		}
+	}
+}

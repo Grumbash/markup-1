@@ -1,0 +1,37 @@
+.section-home{
+	height: 750px;
+	background-image: url(../img/bg.jpg);
+	background-size:cover;
+	display: flex;
+	&__wrapper{
+		margin: auto;
+		align-self: center;
+		display: flex;
+		flex-direction: column;
+	}
+	&__title{
+		width: 852px;
+		height: 201px;
+		opacity: 0.92;
+		font-family: YesevaOne;
+		font-size: 90px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+		color: rgba(255, 255, 255, 0.92);
+		text-shadow: 0.5px 0.9px 2px rgba(1, 1, 1, 0.64);
+	}
+	&__decoration{
+		width: 232px;
+		height: 43px;
+		object-fit: contain;
+		margin: 34px auto;
+	}
+	&__button{
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+}

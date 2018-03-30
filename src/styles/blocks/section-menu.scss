@@ -1,0 +1,84 @@
+.section-menu{
+	height: 994px;
+	font-family: YesevaOne;;
+	&__wrapper{
+		display: flex;
+		margin: 100px 0;
+		justify-content: center;
+	}
+	&__column{
+		width: 433px;
+		margin: 0 85px;
+	}
+	&__type{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		&__item{
+			margin-bottom: 37px;
+			padding: 8px 12px;
+			&_special{
+				position: relative;
+				border: solid 1px #c89f2d;
+			}
+		}
+		&__title{
+			font-size: 36px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 0.67;
+			letter-spacing: normal;
+			text-align: center;
+			color: #cc9900;
+			margin-bottom: 16px;
+		}
+		&__divider{
+			width: 247px;
+			height: 24px;
+			object-fit: contain;
+			align-self: center;
+			margin-bottom: 30px;
+		}
+		&__product-namne{
+			font-family: YesevaOne;
+			font-size: 21px;
+			line-height: 1.14;
+			display: flex;
+			justify-content: space-between;
+			color: #c89f2d;
+			height: 29px;
+			border-bottom: 1px solid #c89f2d;
+		}
+		&__desc{
+			margin-top: 8px;
+			font-family: Lato;
+			font-size: 16px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			text-align: left;
+			color: #4c4c4c;
+		}
+		&__special{
+			position: absolute;
+			top:-22px;
+			right: 0;
+			width: 69px;
+			height: 22px;
+			background-color: #c89f2d;
+			font-family: Lato;
+			font-size: 14px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.71;
+			letter-spacing: normal;
+			text-align: left;
+			color: #f8fafa;
+			text-align: center;
+		}
+	}
+}
